@@ -1,0 +1,58 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   overflow: hidden;
+}
+
+.container{
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   /* background: url("bg.jpeg"); */
+   /* background-size: 100% 100%; */
+   background-image: linear-gradient(#06053d, #07065e, black);
+}
+
+video{
+   height: 100vh;
+   width: 100%;
+}
+
+.desktop{
+
+}
+
+.startmenu{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   bottom: -655px;
+   transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+   border-radius: 8px;
+}
+
+.taskbar{
+   display: flex;
+   position: absolute;
+   bottom: 0;
+   background-color: rgb(246 242 242);
+   width: 100%;
+   justify-content: center;
+}
+
+.icons{
+
+}
+
+.rigthicons{
+   position: absolute;
+   right: 0;
+}
