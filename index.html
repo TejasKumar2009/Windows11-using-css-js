@@ -1,3 +1,4 @@
+<!-- https://www.windowslatest.com/wp-content/uploads/2021/06/Windows-11-File-Explorer-UI.jpg -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +11,26 @@
 <body >
    <div class="container">
       <video autoplay muted>
-         <source src="video.webm">
+         <source src="media/video.webm">
       </video>
       <div class="desktop"></div>
+      <div class="explorer-window">
+         <div class="header">
+            <img class="explorer-header" src="media/explorer header2.png" alt="">
+            <img class="main-explorer" src="media/main explorer.jpg" alt="">
+            <button onclick=close_explorer() class="close-btn" ><img src="media/close_btn.jpg" alt=""></button>
+            <button onclick=maximize_window() class="maximize-btn" ><img src="media/maximize_btn.jpg" alt=""></button>
+         </div>
+      </div>
       <div class="startmenu">
-         <img src="startmenu.PNG" alt="">
+         <img src="media/startmenu.PNG" alt="">
       </div>
       <div class="taskbar">
-         <img class="icons" src="icons.PNG" alt="">
-         <img class="rigthicons" src="taskbarright.PNG" alt="">
+         <img class="window_icon" src="media/window icon.jpg" alt="">
+         <a class="edge_icon" href="https://www.microsoft.com/en-us/edge" target="_blank"><img class="edge_icon" src="media/edgeicon.png" alt=""></a>
+         <img class="explorer" src="media/file explorer.png" alt="">
+         <img class="icons" src="media/icons.PNG" alt="">
+         <img class="rigthicons" src="media/taskbarright.PNG" alt="">
       </div>
    </div>
 </body>
