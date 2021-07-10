@@ -56,3 +56,66 @@ video{
    position: absolute;
    right: 0;
 }
+
+.window_icon{
+   position: absolute;
+   left: 38%;
+}
+
+.edge_icon{
+   position: absolute;
+   width: 26px;
+   height: 24px;
+   left: 49.6%;
+   bottom: 6px;
+}
+
+.explorer{
+   position: absolute;
+   width: 45px;
+   left: 55.3%;
+   bottom: 11.5px;
+}
+
+.explorer-window{
+   position: absolute;
+   background-color: whitesmoke;
+   /* height: 75%; */
+   height: 520px;
+   width: 749px;
+   top: 100%;
+   display: flex;
+   justify-content: center;
+   margin-left: 20%;
+   transition: all 0.3s ease-in;
+   border-radius: 8px;
+   overflow: auto;
+}
+
+.explorer-header{
+   width: 100%;
+   height: 140px;
+}
+
+.close-btn{
+   position: absolute;
+   height: 32px;
+   width: 40px;
+   right: 5px;
+   top: 0;
+}
+
+.maximize-btn{
+   position: absolute;
+   height: 32px;
+   width: 40px;
+   right: 48px;
+   top: 0;
+}
+
+.main-explorer{
+   width: 100%;
+   height: 85vh;
+}
+}
+
